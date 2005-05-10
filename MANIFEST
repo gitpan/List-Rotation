@@ -1,0 +1,13 @@
+Changes
+lib/uninstall
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README
+Rotation.pm
+t/alternate.t
+t/cycle.t
+t/load.t
+t/pod.t
+t/test_manifest
+t/toggle.t
