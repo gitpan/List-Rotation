@@ -1,4 +1,4 @@
-$Id: README,v 0.2 2005/05/10 12:18:55 pelagic Exp $
+$Id: README,v 1.6 2005/05/18 12:07:42 pelagic Exp $
 
 You can install this module in the usual Perl way:
 
@@ -17,10 +17,10 @@ perldoc directly on the module file:
 
 	perldoc Rotation.pm
 	
-You can unistall this module by using the script ./lib/uninstall like:
+You can uninstall the module by calling the script ./lib/uninstall
+(coming with this distribution) from your installation directory like:
 ./lib/uninstall List::Rotation
 
 Share and Enjoy, 
-
 Imre Saling, pelagicatcpandotorg
 

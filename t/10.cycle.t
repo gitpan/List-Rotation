@@ -1,4 +1,6 @@
-# $Id: cycle.t,v 1.1 2005/05/06 12:47:48 pelagic Exp $
+#!/usr/bin/perl
+# $Id: 10.cycle.t,v 1.2 2005/05/18 10:48:43 pelagic Exp $
+use strict;
 
 use Test::More tests => 12;
 

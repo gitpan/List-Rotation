@@ -5,9 +5,10 @@ MANIFEST			This list of files
 META.yml
 README
 Rotation.pm
-t/alternate.t
-t/cycle.t
-t/load.t
+t/00.load.t
+t/10.cycle.t
+t/20.alternate.t
+t/30.toggle.t
+t/pod-coverage.t
 t/pod.t
 t/test_manifest
-t/toggle.t

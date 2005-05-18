@@ -1,8 +1,8 @@
-# $Id: Rotation.pm,v 0.5 2005/05/10 12:15:18 pelagic Exp $
+# $Id: Rotation.pm,v 1.5 2005/05/18 10:57:20 pelagic Exp $
 
 package List::Rotation;
 use vars qw( $VERSION );
-$VERSION = sprintf "%d.%03d", q$Revision: 0.5 $ =~ m/ (\d+) \.? (\d+)? /x;
+$VERSION = sprintf "%d.%03d", q$Revision: 1.5 $ =~ m/ (\d+) \.? (\d+)? /x;
 
 package List::Rotation::Cycle;
 use strict;
