@@ -8,3 +8,8 @@ Revision history for Perl extension List::Rotation
         * Changed VERSION to 1.005 to force CPAN indexing of List::Rotation::Cycle
         * Added t/pod-coverage.t
 
+1.006
+        [INTERNALS]
+        * Added Memoize to prerequisits
+        * Changed all perl files to non-executable
+

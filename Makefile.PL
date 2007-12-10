@@ -22,7 +22,10 @@ WriteMakefile(
     'NAME'          => 'List::Rotation',
     'VERSION_FROM'  => 'Rotation.pm',
 
-    'PREREQ_PM'     => { 'Test::More'   => '0', },
+    'PREREQ_PM'     => {
+        'Test::More'   => '0',
+        'Memoize'      => '0',
+    },
 
     'MAN3PODS'      => { 'Rotation.pm'  => '$(INST_MAN3DIR)/List::Rotation.3', },
     'clean'         => { FILES          => 'List-Rotation-*' },

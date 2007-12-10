@@ -1,8 +1,6 @@
-# $Id: Rotation.pm,v 1.5 2005/05/18 10:57:20 pelagic Exp $
-
 package List::Rotation;
 use vars qw( $VERSION );
-$VERSION = sprintf "%d.%03d", q$Revision: 1.5 $ =~ m/ (\d+) \.? (\d+)? /x;
+$VERSION = sprintf "%d.%03d", q$Revision: 1.6 $ =~ m/ (\d+) \.? (\d+)? /x;
 
 package List::Rotation::Cycle;
 use strict;
@@ -204,7 +202,7 @@ Imre Saling, C<< <pelagicatcpandotorg> >>
 
 =head1 COPYRIGHT and LICENSE
 
-Copyright 2005, Imre Saling, All rights reserved.
+Copyright 2007, Imre Saling, All rights reserved.
 
 This software is available under the same terms as perl.
 

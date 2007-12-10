@@ -1,9 +1,5 @@
-#!/usr/bin/perl
-# $Id: 10.cycle.t,v 1.2 2005/05/18 10:48:43 pelagic Exp $
 use strict;
-
 use Test::More tests => 12;
-
 use List::Rotation;
 
 my @array = qw( A B C );

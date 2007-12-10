@@ -1,4 +1,3 @@
-# $Id: test_manifest,v 1.2 2005/05/18 10:48:43 pelagic Exp $
 00.load.t
 10.cycle.t
 20.alternate.t

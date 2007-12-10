@@ -1,9 +1,5 @@
-#!/usr/bin/perl
-# $Id: 20.alternate.t,v 1.2 2005/05/18 10:48:43 pelagic Exp $
 use strict;
-
 use Test::More tests => 15;
-
 use List::Rotation;
 
 my $a1  = List::Rotation::Alternate->new( qw( odd even ) );
