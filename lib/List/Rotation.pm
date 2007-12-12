@@ -1,9 +1,10 @@
 package List::Rotation;
 use vars qw( $VERSION );
-$VERSION = sprintf "%d.%03d", q$Revision: 1.6 $ =~ m/ (\d+) \.? (\d+)? /x;
+$VERSION = sprintf "%d.%03d", q$Revision: 1.7 $ =~ m/ (\d+) \.? (\d+)? /x;
 
 package List::Rotation::Cycle;
 use strict;
+use warnings;
 
 use Memoize;
 memoize('new');

@@ -1,11 +1,15 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         List-Rotation
-version:      1.005
-version_from: Rotation.pm
-installdirs:  site
-requires:
+--- #YAML:1.0
+name:                List-Rotation
+version:             1.007
+abstract:            Loop (Cycle, Alternate or Toggle) through a list of values via a singleton object implemented as closure.
+license:             perl
+author:              
+    - pelagic
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
+    Memoize:                       0
     Test::More:                    0
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.17
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3

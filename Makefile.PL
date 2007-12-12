@@ -1,9 +1,5 @@
-#!/usr/bin/perl
-# $Id: Makefile.PL,v 1.6 2005/05/18 11:52:58 pelagic Exp $
 use strict;
-
 use ExtUtils::MakeMaker;
-
 eval "use Test::Manifest";
 
 unless( $@ )
@@ -20,14 +16,18 @@ unless( $@ )
 
 WriteMakefile(
     'NAME'          => 'List::Rotation',
-    'VERSION_FROM'  => 'Rotation.pm',
+    'VERSION_FROM'  => 'lib/List/Rotation.pm',
+    'LICENSE'       => 'perl',
+    'ABSTRACT'      => 'Loop (Cycle, Alternate or Toggle) through a list of values via a singleton object implemented as closure.',
+    'AUTHOR'        => 'pelagic',
+    'SIGN'          => 1,
 
     'PREREQ_PM'     => {
         'Test::More'   => '0',
         'Memoize'      => '0',
     },
 
-    'MAN3PODS'      => { 'Rotation.pm'  => '$(INST_MAN3DIR)/List::Rotation.3', },
+    'MAN3PODS'      => { 'lib/List/Rotation.pm'  => '$(INST_MAN3DIR)/List::Rotation.3', },
     'clean'         => { FILES          => 'List-Rotation-*' },
 );
 
