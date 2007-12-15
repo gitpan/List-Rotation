@@ -13,3 +13,9 @@ Revision history for Perl extension List::Rotation
         * Added Memoize to prerequisits
         * Changed all perl files to non-executable
 
+1.008
+        [INTERNALS]
+        * Added SIGNATURE file
+        * Upgraded META.yml to META-spec-v1.3
+        * Added a example file (without a real example)
+

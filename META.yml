@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                List-Rotation
-version:             1.007
+version:             1.008
 abstract:            Loop (Cycle, Alternate or Toggle) through a list of values via a singleton object implemented as closure.
 license:             perl
 author:              
